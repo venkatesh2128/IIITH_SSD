@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="heading">Team form</h1>
+    <form name="form" id="form" class="form_clas" action="myFunction()">
+        <div>
+            <div>
+                <label for="mname"><b>Manager Name</b></label>
+                <input id="mname" class="field_class" name="usrnam" type="text">
+                </div>
+            </br>
+                <div>
+                    <label for="gemail"><b>Group Email</b></label>
+                    <input id="gemail" class="field_class" onfocusout="validateemail()" name="gemail" type="email">
+                </div>
+            </br>
+        <div>
 
+        <label for="suname"><b>Server Username</b></label>
+        <input id="suname" class="field_class" name="usrnam" type="text">
+        </div>
+    </br>
+        <div>
+        <label for="spass"><b>Server Password</b></label>
+        <input id="spass" class="field_class" name="spass" type="password">
+        </div>
+    </br>
+        <div>
+            <label for="cpass"><b>Confirm Password</b></label>
+            <input id="cpass" class="field_class" name="cpass" onfocusout="confirmPass()" type="password" >
+        <p id="hello"></p>           </div>
+        </br>
+        <div>
+            <label for="tl"><b>Team Lead     </b></label>
+            <select name="tl" id="tl">
+                <option value="Ven">Venky</option>
+                <option value="Sai">Sumith</option>
+                <option value="Dheer">Dheeraj</option>
+                <option value="Sri">Sriram</option>
+              </select>
+        </div>
+    </br>
+    <div>
+        <label for="sub"><b></b></label>
+        <input id="sub" type="submit" value="Submit">
+    </div>
+</br>
+<div>
+    <label for="tl"><b>Team Lead     </b></label>
+    <select name="tl" id="tl">
+        <option value="Ven">Venky</option>
+        <option value="Sai">Sumith</option>
+        <option value="Dheer">Dheeraj</option>
+        <option value="Sri">Sriram</option>
+      </select>
+</div>
+    <input onclick="myFunction()"></button>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </form>
+</body>
+</html>
