@@ -1,0 +1,40 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.heading{
+    display: flex;
+    justify-content: center;
+}
+ .form_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: auto;
+} 
+.form_class{
+    line-height: 20px;
+    line-height-step: 20px;
+}
+.s{
+    line-height: 200%;
+    background-color: #5F6F94;
+}
+.form_div{
+    line-height: 150%;
+}
+table,th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+}
+h1 {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+.stutbl{
+    display: flex;
+    justify-content: center;
+}
